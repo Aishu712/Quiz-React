@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  font-family: "Public Sans", sans-serif;
+  background-color: rgb(111, 202, 202);
+}
+@media screen and (max-width:754px){
+  .wrapper{
+    width:450px;
+    padding: 20px 30px;
+  }
+  .wrapper h2{
+    font-size: 23px;
+  }
+  .wrapper ul li{
+    height: 50px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 15px 15px
+  }
+  button{
+    margin:auto;
+    width:100px;
+    height:45px;
+    background-color: rgb(77, 167, 167);
+    font-size: 20px;
+
+  }
+  .wrapper h5{
+    margin: auto;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:440px){
+  .wrapper{
+    width:250px;
+    padding: 20px 30px;
+  }
+  .wrapper ul li{
+    height: 60px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    padding: 5px 5px;
+    font-weight:700;
+  }
+
+}
